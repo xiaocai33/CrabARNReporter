@@ -1,11 +1,12 @@
 # CrabARNReporter
-集成方式:
+一. 集成方式:
 (1) 在Podfile文件中添加以下代码：(推荐)
 pod 'CrabARNReport'
 
 (2) 下载SDK, 拖动到项目
 
-初始化SDK
+
+二. 初始化SDK
 
 在application:didFinishLaunchingWithOptions:方法中加入如下代码初始化SDK：
 [[CrabCrashReport sharedInstance] initCrashReporterWithAppKey:@"YourAppKey"
