@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target "CrabSample" do
+
+pod 'CrabARNReport', '~> 1.0.0'   #需要版本是8.0的  
+
+
+end

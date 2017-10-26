@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   ANR and Excption Capture 
                    DESC
 
-  s.homepage     = "https://github.com/xiaocai33/CrabARNReporter"
+  s.homepage     = "crab.baidu.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/xiaocai33/CrabARNReporter.git", :tag => "#{s.version}" }
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '8.0' #部署的版本
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9070D6951F56E51C007BC6D6 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9070D6941F56E51C007BC6D6 /* BSBacktraceLogger.m */; };
+		D985AC6928DD25A7AF03895F /* libPods-CrabSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5349D4CD8539E53151DA57E1 /* libPods-CrabSample.a */; };
+		E17D19371D8EBBF200122C23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17D19361D8EBBF200122C23 /* main.m */; };
+		E17D193A1D8EBBF200122C23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E17D19391D8EBBF200122C23 /* AppDelegate.m */; };
+		E17D193D1D8EBBF200122C23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17D193C1D8EBBF200122C23 /* ViewController.m */; };
+		E17D19401D8EBBF200122C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17D193E1D8EBBF200122C23 /* Main.storyboard */; };
+		E17D19421D8EBBF200122C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17D19411D8EBBF200122C23 /* Assets.xcassets */; };
+		E17D19451D8EBBF200122C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17D19431D8EBBF200122C23 /* LaunchScreen.storyboard */; };
+		E17D19531D8EBE5700122C23 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E17D19521D8EBE5700122C23 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15FF1B922D7AF4DF74D71F13 /* Pods-CrabSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrabSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrabSample/Pods-CrabSample.debug.xcconfig"; sourceTree = "<group>"; };
+		5349D4CD8539E53151DA57E1 /* libPods-CrabSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrabSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4CC9414E44AAC6B89684B7 /* Pods-CrabSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrabSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrabSample/Pods-CrabSample.release.xcconfig"; sourceTree = "<group>"; };
+		9070D6931F56E51C007BC6D6 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		9070D6941F56E51C007BC6D6 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		E17D19321D8EBBF200122C23 /* CrabSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrabSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17D19361D8EBBF200122C23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E17D19381D8EBBF200122C23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E17D19391D8EBBF200122C23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E17D193B1D8EBBF200122C23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E17D193C1D8EBBF200122C23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E17D193F1D8EBBF200122C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E17D19411D8EBBF200122C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E17D19441D8EBBF200122C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E17D19461D8EBBF200122C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17D19521D8EBE5700122C23 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E17D192F1D8EBBF200122C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17D19531D8EBE5700122C23 /* libz.tbd in Frameworks */,
+				D985AC6928DD25A7AF03895F /* libPods-CrabSample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90364BC61F73630D00BC9E21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5349D4CD8539E53151DA57E1 /* libPods-CrabSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E17D19291D8EBBF200122C23 = {
+			isa = PBXGroup;
+			children = (
+				E17D19521D8EBE5700122C23 /* libz.tbd */,
+				E17D19341D8EBBF200122C23 /* CrabSample */,
+				E17D19331D8EBBF200122C23 /* Products */,
+				90364BC61F73630D00BC9E21 /* Frameworks */,
+				FE06BF3982656F88E13F2527 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E17D19331D8EBBF200122C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17D19321D8EBBF200122C23 /* CrabSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E17D19341D8EBBF200122C23 /* CrabSample */ = {
+			isa = PBXGroup;
+			children = (
+				9070D6931F56E51C007BC6D6 /* BSBacktraceLogger.h */,
+				9070D6941F56E51C007BC6D6 /* BSBacktraceLogger.m */,
+				E17D19381D8EBBF200122C23 /* AppDelegate.h */,
+				E17D19391D8EBBF200122C23 /* AppDelegate.m */,
+				E17D193B1D8EBBF200122C23 /* ViewController.h */,
+				E17D193C1D8EBBF200122C23 /* ViewController.m */,
+				E17D193E1D8EBBF200122C23 /* Main.storyboard */,
+				E17D19411D8EBBF200122C23 /* Assets.xcassets */,
+				E17D19431D8EBBF200122C23 /* LaunchScreen.storyboard */,
+				E17D19461D8EBBF200122C23 /* Info.plist */,
+				E17D19351D8EBBF200122C23 /* Supporting Files */,
+			);
+			path = CrabSample;
+			sourceTree = "<group>";
+		};
+		E17D19351D8EBBF200122C23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E17D19361D8EBBF200122C23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE06BF3982656F88E13F2527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15FF1B922D7AF4DF74D71F13 /* Pods-CrabSample.debug.xcconfig */,
+				5C4CC9414E44AAC6B89684B7 /* Pods-CrabSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E17D19311D8EBBF200122C23 /* CrabSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17D19491D8EBBF200122C23 /* Build configuration list for PBXNativeTarget "CrabSample" */;
+			buildPhases = (
+				FDAA61E39CB4F8C237743B94 /* [CP] Check Pods Manifest.lock */,
+				E17D192E1D8EBBF200122C23 /* Sources */,
+				E17D192F1D8EBBF200122C23 /* Frameworks */,
+				E17D19301D8EBBF200122C23 /* Resources */,
+				08C1E078DFB408D7FC2C6C60 /* [CP] Embed Pods Frameworks */,
+				B65D496A07E70D21CF823925 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrabSample;
+			productName = CrabSample;
+			productReference = E17D19321D8EBBF200122C23 /* CrabSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E17D192A1D8EBBF200122C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = baidu;
+				TargetAttributes = {
+					E17D19311D8EBBF200122C23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6T9LLJKSM4;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = E17D192D1D8EBBF200122C23 /* Build configuration list for PBXProject "CrabSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E17D19291D8EBBF200122C23;
+			productRefGroup = E17D19331D8EBBF200122C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E17D19311D8EBBF200122C23 /* CrabSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E17D19301D8EBBF200122C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17D19451D8EBBF200122C23 /* LaunchScreen.storyboard in Resources */,
+				E17D19421D8EBBF200122C23 /* Assets.xcassets in Resources */,
+				E17D19401D8EBBF200122C23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08C1E078DFB408D7FC2C6C60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrabSample/Pods-CrabSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65D496A07E70D21CF823925 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrabSample/Pods-CrabSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDAA61E39CB4F8C237743B94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E17D192E1D8EBBF200122C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17D193D1D8EBBF200122C23 /* ViewController.m in Sources */,
+				E17D193A1D8EBBF200122C23 /* AppDelegate.m in Sources */,
+				E17D19371D8EBBF200122C23 /* main.m in Sources */,
+				9070D6951F56E51C007BC6D6 /* BSBacktraceLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E17D193E1D8EBBF200122C23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17D193F1D8EBBF200122C23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E17D19431D8EBBF200122C23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17D19441D8EBBF200122C23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E17D19471D8EBBF200122C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E17D19481D8EBBF200122C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E17D194A1D8EBBF200122C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15FF1B922D7AF4DF74D71F13 /* Pods-CrabSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Baidu Netcom Science & Technology Co.,Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6T9LLJKSM4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CrabSample/CrabCrashReportSDK",
+					"$(PROJECT_DIR)/CrabCrashReporter/Classes",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../CrabARNReport",
+				);
+				INFOPLIST_FILE = CrabSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CrabSample/CrabCrashReportSDK",
+					"$(PROJECT_DIR)/CrabSample",
+					"$(PROJECT_DIR)/CrabCrashReporter/Classes",
+					"$(PROJECT_DIR)/CrabSample/CrabARNReport",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.crab.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1e94d4e0-4294-488e-8f6c-9a6321a309f1";
+				PROVISIONING_PROFILE_SPECIFIER = Distribution_crabdemo;
+			};
+			name = Debug;
+		};
+		E17D194B1D8EBBF200122C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C4CC9414E44AAC6B89684B7 /* Pods-CrabSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Baidu Netcom Science & Technology Co.,Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6T9LLJKSM4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CrabSample/CrabCrashReportSDK",
+					"$(PROJECT_DIR)/CrabCrashReporter/Classes",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../CrabARNReport",
+				);
+				INFOPLIST_FILE = CrabSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CrabSample/CrabCrashReportSDK",
+					"$(PROJECT_DIR)/CrabSample",
+					"$(PROJECT_DIR)/CrabCrashReporter/Classes",
+					"$(PROJECT_DIR)/CrabSample/CrabARNReport",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.crab.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1e94d4e0-4294-488e-8f6c-9a6321a309f1";
+				PROVISIONING_PROFILE_SPECIFIER = Distribution_crabdemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E17D192D1D8EBBF200122C23 /* Build configuration list for PBXProject "CrabSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17D19471D8EBBF200122C23 /* Debug */,
+				E17D19481D8EBBF200122C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17D19491D8EBBF200122C23 /* Build configuration list for PBXNativeTarget "CrabSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17D194A1D8EBBF200122C23 /* Debug */,
+				E17D194B1D8EBBF200122C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E17D192A1D8EBBF200122C23 /* Project object */;
+}
