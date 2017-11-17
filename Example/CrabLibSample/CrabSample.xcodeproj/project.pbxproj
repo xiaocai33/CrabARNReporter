@@ -22,6 +22,7 @@
 		15FF1B922D7AF4DF74D71F13 /* Pods-CrabSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrabSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrabSample/Pods-CrabSample.debug.xcconfig"; sourceTree = "<group>"; };
 		5349D4CD8539E53151DA57E1 /* libPods-CrabSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrabSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4CC9414E44AAC6B89684B7 /* Pods-CrabSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrabSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrabSample/Pods-CrabSample.release.xcconfig"; sourceTree = "<group>"; };
+		90639D311FBEDCA30082ED8F /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
 		9070D6931F56E51C007BC6D6 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
 		9070D6941F56E51C007BC6D6 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
 		E17D19321D8EBBF200122C23 /* CrabSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrabSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +54,7 @@
 		90364BC61F73630D00BC9E21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				90639D311FBEDCA30082ED8F /* CrashReporter.framework */,
 				5349D4CD8539E53151DA57E1 /* libPods-CrabSample.a */,
 			);
 			name = Frameworks;
