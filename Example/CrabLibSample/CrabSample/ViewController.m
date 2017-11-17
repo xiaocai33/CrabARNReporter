@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     NSLog(@"%@",NSHomeDirectory());
     [super viewDidLoad];
+    
     self.title = @"CrabSampleDemo";
     self.view.backgroundColor = [UIColor whiteColor];
 //    UIButton *crashTestBtn = [UIButton buttonWithType:UIButtonTypeCustom];
